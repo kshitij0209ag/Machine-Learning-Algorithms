@@ -23,3 +23,30 @@ OF ALL HYPOTHESES CONSISTENT WITH THE TRAINING EXAMPLES.
 9. WRITE A PROGRAM TO IMPLEMENT K-NEAREST NEIGHBOUR ALGORITHM TO CLASSIFY THE IRIS DATA SET. PRINT BOTH CORRECT AND WRONG PREDICTIONS. JAVA/PYTHON ML LIBRARY CLASSES CAN BE USED FOR THIS PROBLEM.
 
 10. IMPLEMENT THE NON-PARAMETRIC LOCALLY WEIGHTED REGRESSIONALGORITHM IN ORDER TO FIT DATA POINTS. SELECT APPROPRIATE DATA SET FOR YOUR EXPERIMENT AND DRAW GRAPHS.
+
+
+
+
+### Installation
+```sh
+        cd Machine-Learning-Algorithms
+        pip install scipy numpy
+        python setup.py develop
+```
+### How to run examples without installation
+```sh
+        cd Machine-Learning-Algorithms
+        python -m examples.linear_models
+```
+### How to run examples within Docker
+```sh
+        cd Machine-Learning-Algorithms
+        docker build -t mlalgorithms .
+        docker run --rm -it mlalgorithms bash
+        python -m examples.linear_models
+```
+### Contributing
+
+Your contributions are always welcome!  
+Feel free to improve existing code, documentation or implement new algorithm.  
+Please open an issue to propose your changes if they are big enough.
